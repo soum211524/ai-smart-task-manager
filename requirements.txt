@@ -1,9 +1,7 @@
 fastapi
-uvicorn
+uvicorn[standard]
 sqlalchemy
-python-jose
+python-jose[cryptography]
 passlib[argon2]
-typing
 pydantic
-jose
-os
+python-multipart
